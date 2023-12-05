@@ -40,6 +40,7 @@ class MirrorStatus:
     STATUS_SPLITTING    = "Spliting"
     STATUS_CHECKING     = "CheckingUp"
     STATUS_SEEDING      = "Seeding"
+    STATUS_LOCAL        = "Local"
 
 class setInterval:
     def __init__(self, interval, action):
